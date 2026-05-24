@@ -3,16 +3,31 @@
     padding: 0px;
 }
 
+:root{
+    --cor-h2: #1B1B1B;
+    --cor-h1: black;
+    --cor-subtitulo: #E1624F;
+    --cor-texto-bompara: #333333;
+    --cor-azul: #0C51A7;
+    --cor-laranja: #E95E10;
+    --cor-rosa: #E5245E;
+    --cor-roxo: #591B98;
+}
+
 html, body{
     background-color: darksalmon;
     height: 100%;
 }
 
 div#container{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     max-width: 1120px;
     width: 80%;
     max-height: 3054px;
     height: 80%;
     margin: auto;
+}
+
+.subtitulo{
+    color: var(--cor-subtitulo);
 }
