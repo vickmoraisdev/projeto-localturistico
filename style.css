@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -12,22 +14,87 @@
     --cor-laranja: #E95E10;
     --cor-rosa: #E5245E;
     --cor-roxo: #591B98;
+    --font-pagina: "Open Sans", sans-serif;
 }
 
 html, body{
-    background-color: darksalmon;
+    background-color: white;
     height: 100%;
+    font-family: var(--font-pagina);
 }
 
 div#container{
-    background-color: white;
-    max-width: 1120px;
+    background-color: rgb(255, 255, 255);
+    max-width: 950px;
     width: 80%;
     max-height: 3054px;
     height: 80%;
     margin: auto;
 }
 
+img{
+    width: 95%;
+    margin-top: 48px;
+}
+
 .subtitulo{
     color: var(--cor-subtitulo);
+    margin-top: 64px;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+em{
+    display: block;
+    max-width: 900px;
+    font-weight: normal;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+
+h2{
+    color: var(--cor-h2);
+    margin-bottom: 8px;
+}
+
+h3{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.historia{
+    color: var(--cor-azul);
+}
+
+p, .bompara{
+    color: var(--cor-texto-bompara);
+}
+
+.bompara{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+ul{
+    margin-left: 23px;
+    font-weight: bold;
+}
+
+.roxo{
+    color: var(--cor-roxo);
+}
+
+.rosa{
+    color: var(--cor-rosa);
+}
+
+.laranja{
+    color: var(--cor-laranja);
 }
