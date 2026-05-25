@@ -28,7 +28,6 @@ div#container{
     max-width: 950px;
     width: 80%;
     max-height: 3054px;
-    height: 80%;
     margin: auto;
 }
 
@@ -111,5 +110,21 @@ ul{
 #ultxt{
     margin: auto;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: 40px;
+    font-family: serif;
+}
+
+a{
+    color: var(--cor-texto-bompara);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6e2ab3;
 }
