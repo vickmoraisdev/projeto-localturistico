@@ -41,6 +41,8 @@ img{
     color: var(--cor-subtitulo);
     margin-top: 64px;
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 hr{
@@ -97,4 +99,17 @@ ul{
 
 .laranja{
     color: var(--cor-laranja);
+}
+
+.texto{
+    margin-top: 5px;
+    font-size: 14px;
+    max-width: 930px;
+    text-align: justify;
+}
+
+#ultxt{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
